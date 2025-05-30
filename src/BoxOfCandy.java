@@ -7,6 +7,9 @@ import java.util.Arrays;
  * Students must complete the two methods marked TODO.
  */
 public class BoxOfCandy {
+
+    /** Rectangular array of Candy objects (null indicates an empty slot). */
+    private final Candy[][] box;
     /* ----------------------------------------------------------------------
        STUDENTS:  Implement the two methods below exactly as specified by
                   the Google Doc.
@@ -47,8 +50,7 @@ public class BoxOfCandy {
 
 
 
-    /** Rectangular array of Candy objects (null indicates an empty slot). */
-    private final Candy[][] box;
+    
 
     /**
      * Precondition: <code>contents</code> is rectangular and has at least
